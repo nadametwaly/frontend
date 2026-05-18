@@ -1,1 +1,1 @@
-<img width="916" height="689" alt="Screenshot 2026-05-18 203345" src="https://github.com/user-attachments/assets/b2df2737-a971-4af2-bb7c-9f2709166bdb" />
+<img width="847" height="575" alt="frontend-Dockerfile" src="https://github.com/user-attachments/assets/56aa7dca-14db-4642-a6c5-1fee5f4c5d17" />
