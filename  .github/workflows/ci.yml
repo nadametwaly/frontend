@@ -1,0 +1,25 @@
+name: frontend CI using reusable workflow
+
+on:
+  push:
+    branches: [stg, main]
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: "environment"
+        required: true
+        type: choice
+        options:
+          - staging
+          - production
+
+jobs:
+  ci:
+    uses: nadametwaly/reusable-frontend-ci/.github/workflows/frontend-ci.yml@main
+    permissions:
+      contents: read
+      packages: write
+    with:
+      node_version: '22'
+      unit_test: true
+      image_name: frontend
