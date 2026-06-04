@@ -13,7 +13,6 @@ on:
           - staging
           - production
 
-
 jobs:
   ci:
     uses: nadametwaly/reusable-frontend-ci/.github/workflows/frontend-ci.yml@main
